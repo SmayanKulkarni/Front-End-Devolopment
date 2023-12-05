@@ -1,0 +1,12 @@
+h1{
+    background-color: palegoldenrod;
+    border: 2px solid black;
+    /* This code will make 1h work like an inline element
+    display: inline; */
+}
+span{
+    background-color: paleturquoise;
+    border: 2px dashed black;
+    /* This code will make span look like a block element
+    display: block; */
+}

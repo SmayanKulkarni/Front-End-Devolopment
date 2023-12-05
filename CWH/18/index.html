@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Boxmodel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            background-color: aqua;
+            margin: 25px;
+            border: 2px solid rgb(11, 233, 22);
+            padding: 9px solid rgb(147, 37, 37);
+            box-sizing: border-box;
+            height: 200px;
+            width: 560px;
+        }
+        .box2{
+            background-color:violet ;
+            color: whitesmoke;
+            margin: 25px;
+            border: 2px solid rgb(217, 224, 0);
+            padding: 9px solid rgb(147, 37, 37);
+            box-sizing: border-box;
+            height: 200px;
+            width: 560px;
+        }
+        .text{
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="text">Margin Collapse : This concept makes it so that the margin in between 2</div>
+    <div class="text">box elements does not add up but becomes the larger margin btw the 2 boxes</div>
+    <div class="box box2">I am box2</div>
+
+</body>
+
+</html>

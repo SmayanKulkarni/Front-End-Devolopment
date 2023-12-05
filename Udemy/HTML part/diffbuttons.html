@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other inputs</title>
+</head>
+<body>
+    <h2>More inputs!</h2>
+    <form action="/forms.html" >
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything </label>
+        <p>
+            <input type="radio" name="opt" id="S"v  value="small size shirt">
+            <label for="S">Small</label>
+            <input type="radio" name="opt" id="M" value="medium size shirt">
+            <label for="M">Medium</label>
+            <input type="radio" name="opt" id="L" value="large size shirt">
+            <label for="L">Large</label>
+        </p>
+        <p> 
+            <label for="">Please select an Entree</label>
+            <select name="mean" id="mean">
+                <option value="Fish">Fish</option>
+                <option value="Veg" selected> Vegetarian</option>
+                <option value="Chicken">Chicken</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese:</label>
+            <input type="range" id="cheese" min="1" max ="100" name="cheese_level">
+        </p>
+        <p>
+            <label for="req">Any special requests?</label>
+            <textarea name="spl_req" id="req" cols="40" rows="15" placeholder="enter whatever special requests you have in here!"></textarea>    
+        </p>
+        <button>Submit!</button>
+    </form>
+</body>
+</html>

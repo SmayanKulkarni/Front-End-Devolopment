@@ -1,0 +1,20 @@
+header a {
+    font-size: 30px;
+    color: teal;
+}
+#dislikes a{
+    color: red;
+    font-weight: bold;
+}
+
+a:hover, #dislikes :hover{
+    background-color: aqua;
+    color: black;    
+}
+a:active{
+    background-color: orange !important;
+}
+a:nth-of-type(2){
+    background-color: rgba(86, 176, 150, 0.793);
+}
+
